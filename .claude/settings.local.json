@@ -28,7 +28,13 @@
       "Bash(npx --yes -p playwright node /private/tmp/claude-501/-Users-kylemoreau-Desktop-courtvision/21f282d5-b026-46c2-af38-367e31994781/scratchpad/screenshot.mjs /private/tmp/claude-501/-Users-kylemoreau-Desktop-courtvision/21f282d5-b026-46c2-af38-367e31994781/scratchpad)",
       "Bash(node /Users/kylemoreau/Desktop/courtvision/.tmp-screenshot.mjs /private/tmp/claude-501/-Users-kylemoreau-Desktop-courtvision/21f282d5-b026-46c2-af38-367e31994781/scratchpad)",
       "Bash(node /Users/kylemoreau/Desktop/courtvision/.tmp-interact.mjs /private/tmp/claude-501/-Users-kylemoreau-Desktop-courtvision/21f282d5-b026-46c2-af38-367e31994781/scratchpad)",
-      "Bash(pkill -f \"vite\")"
+      "Bash(pkill -f \"vite\")",
+      "WebFetch(domain:docs.balldontlie.io)",
+      "Bash(node /Users/kylemoreau/Desktop/courtvision/.tmp-teams-check.mjs /private/tmp/claude-501/-Users-kylemoreau-Desktop-courtvision/21f282d5-b026-46c2-af38-367e31994781/scratchpad)",
+      "Bash(kill 74147 86522)",
+      "Bash(lsof -ti:5173)",
+      "Bash(xargs -r kill)",
+      "Bash(pkill -f \"node_modules/.bin/vite\")"
     ]
   }
 }
