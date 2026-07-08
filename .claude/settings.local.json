@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Bash(node scripts/validate_palette.js \"#2a78d6,#1baf7a,#eda100,#008300,#4a3aa7,#e34948,#e87ba4,#eb6834\" --mode light)",
+      "Bash(node scripts/validate_palette.js \"#3987e5,#199e70,#c98500,#008300,#9085e9,#e66767,#d55181,#d95926\" --mode dark --surface \"#1a1a19\")",
+      "Bash(npm install *)",
+      "Bash(npx shadcn@latest --version)",
+      "Bash(npx shadcn@latest init -d -b neutral)",
+      "Bash(npx shadcn@latest init -d)",
+      "Bash(npm uninstall *)",
+      "Bash(npx shadcn@latest add card table skeleton badge separator tabs tooltip avatar input dropdown-menu scroll-area sidebar --yes)",
+      "Bash(node -e \"console.log\\(require\\('/Users/kylemoreau/Desktop/courtvision/node_modules/react-router/package.json'\\).version\\)\")",
+      "Bash(npx tsc *)",
+      "Bash(npx eslint *)",
+      "Bash(npm run *)",
+      "Bash(curl -sf http://localhost:5173)",
+      "Bash(break)",
+      "Read(//private/tmp/**)",
+      "Bash(npx --yes playwright --version)",
+      "Bash(npx --yes playwright install chromium --with-deps)",
+      "Skill(fewer-permission-prompts)",
+      "Skill(fewer-permission-prompts:*)",
+      "Bash(ls -la ~/.claude/projects/ 2>&1 | head -20)",
+      "Read(//Users/kylemoreau/.claude/projects/**)",
+      "Bash(python3 -)",
+      "Bash(node /private/tmp/claude-501/-Users-kylemoreau-Desktop-courtvision/21f282d5-b026-46c2-af38-367e31994781/scratchpad/screenshot.mjs /private/tmp/claude-501/-Users-kylemoreau-Desktop-courtvision/21f282d5-b026-46c2-af38-367e31994781/scratchpad)",
+      "Bash(npx --yes -p playwright node /private/tmp/claude-501/-Users-kylemoreau-Desktop-courtvision/21f282d5-b026-46c2-af38-367e31994781/scratchpad/screenshot.mjs /private/tmp/claude-501/-Users-kylemoreau-Desktop-courtvision/21f282d5-b026-46c2-af38-367e31994781/scratchpad)",
+      "Bash(node /Users/kylemoreau/Desktop/courtvision/.tmp-screenshot.mjs /private/tmp/claude-501/-Users-kylemoreau-Desktop-courtvision/21f282d5-b026-46c2-af38-367e31994781/scratchpad)",
+      "Bash(node /Users/kylemoreau/Desktop/courtvision/.tmp-interact.mjs /private/tmp/claude-501/-Users-kylemoreau-Desktop-courtvision/21f282d5-b026-46c2-af38-367e31994781/scratchpad)",
+      "Bash(pkill -f \"vite\")"
+    ]
+  }
+}
